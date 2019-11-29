@@ -1,0 +1,80 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #27538C;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+#bottom {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 200;
+}
+
+.col-12.col-sm-4 {
+    background: url(../images/table.jpg) no-repeat right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vmax;
+    color: #EBF2F2;
+}
+
+section.row {
+    height: 100vh;
+}
+
+header > section.row:nth-child(1), #content > section.row:nth-child(1) {
+    padding-top: 30vh;
+}
+
+header > section.row h3 {
+    margin-top: 100px;
+    font-size: 1.4em;
+    text-shadow: 2px 2px 2px #595959;
+    padding-top: 12px;
+    border-top: 2px solid#F2B5A7;
+}
+
+.row h2 {
+    padding: 10px 10px 0;
+    border-bottom: 1px solid #849EBF;
+}
+
+.row.no-gutters .col-3 {
+    position: relative;
+}
+
+.row.no-gutters .col-3 {
+    padding: 2px;
+}
+
+.row.no-gutters .col-3 p {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #EBF2F2;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px #595959;
+}
+
+.row.justify-content-center {
+    margin-top: 200px;
+}
+
+#content section:nth-child(3) .col-8 {
+    padding-top: 20vh;
+}
+
+#mexico {
+    background: url(../images/mexico.jpg) no-repeat fixed;
+    background-position: right bottom;
+    background-size: contain;
+    height: 80vh;
+}
